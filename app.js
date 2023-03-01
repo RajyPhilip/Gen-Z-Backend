@@ -11,7 +11,7 @@ app.use(cookieParser());
 
 //cors
 const cors = require('cors');
-app.use(cors());
+app.use(cors()); 
 
 
 //bodyParser   //for getting form data kind of url
