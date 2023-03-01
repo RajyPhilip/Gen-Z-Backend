@@ -9,6 +9,11 @@ app.use(express.json());
 const cookieParser = require('cookie-parser');
 app.use(cookieParser());
 
+//cors
+const cors = require('cors');
+app.use(cors());
+
+
 //bodyParser   //for getting form data kind of url
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({extended:true}));
